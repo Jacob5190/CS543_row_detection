@@ -2,3 +2,7 @@
 /embeddings.pickle
 /model/
 /20260427-*/
+data/processed/SHARD
+data/raw/SHARD
+
+runs/
