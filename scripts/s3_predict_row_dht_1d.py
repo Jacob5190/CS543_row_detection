@@ -10,7 +10,7 @@ import numpy as np
 import torch
 from PIL import Image, ImageDraw
 
-from models.row_dht_1d import RowDHT1D
+from models.s3_row_dht_1d import RowDHT1D
 
 
 def extract_peaks(prob, threshold=0.35, min_distance=20):

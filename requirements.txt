@@ -1,3 +1,11 @@
 tensorflow~=2.13.0
 tensorflow-addons~=0.21.0
 faiss-cpu~=1.7.4
+torch
+torchvision
+opencv-python
+pillow
+tqdm
+matplotlib
+# Optional for the provided SKU-110K Keras RetinaNet .h5 detector:
+# git+https://github.com/fizyr/keras-retinanet.git

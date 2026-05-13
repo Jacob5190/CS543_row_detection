@@ -1,5 +1,9 @@
 import argparse
+import sys
 from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
 import torch
 import torch.nn.functional as F
@@ -7,7 +11,7 @@ from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
 
 from datasets.shard_rows import SHARDRowDataset
-from models.row_dht_1d import RowDHT1D
+from models.s3_row_dht_1d import RowDHT1D
 
 
 def train_one_epoch(model, loader, optimizer, device):

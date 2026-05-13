@@ -4,5 +4,17 @@
 /20260427-*/
 data/processed/SHARD
 data/raw/SHARD
+data/SKU110K
 
 runs/
+
+data/processed/
+__pycache__/
+**/__pycache__/
+*.pyc
+.DS_Store
+**/.DS_Store
+result/localization_visualizations/
+result/product_detection_visualizations/
+s3_detections.jsonl
+s3_iou_resnet50_csv_06.h5
